@@ -9,5 +9,10 @@ alias ccflags='cc -Werror -Wextra -Wall'
 alias kitty="$HOME/.local/kitty.app/bin/kitty"
 alias k="$HOME/.local/kitty.app/bin/kitty & disown; exit"
 
+path=(
+	$path
+	$HOME/apps/nvim/bin
+)
+
 # Load Homebrew config script
 source $HOME/.brewconfig.zsh
