@@ -12,3 +12,6 @@ ln -s ~/.dotfiles/nvim ~/.config
 #	Cofigure kitty
 rm -fr ~/.config/kitty
 ln -s ~/.dotfiles/kitty ~/.config
+
+rm -fr ~/.brewconfig.zsh
+ln -s ~/.dotfiles/.brewconfig.zsh ~/
