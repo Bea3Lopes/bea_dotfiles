@@ -9,6 +9,8 @@ alias ccflags='cc -Werror -Wextra -Wall'
 alias kitty="$HOME/.local/kitty.app/bin/kitty"
 alias k="$HOME/.local/kitty.app/bin/kitty & disown; exit"
 
+PROMPT="%F{green}bea3 %~ %f%# "
+
 path=(
 	$path
 	$HOME/apps/nvim/bin
@@ -16,3 +18,7 @@ path=(
 
 # Load Homebrew config script
 source $HOME/.brewconfig.zsh
+
+alias francinette=/home/bea3/francinette/tester.sh
+
+alias paco=/home/bea3/francinette/tester.sh
